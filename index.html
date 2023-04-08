@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Little Cloud</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./static/css/chat.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- CHAT BAR BLOCK -->
+  <div class="chat-bar-collapsible">
+    <button id="chat-button" type="button" class="collapsible">Chat with us!
+      <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+    </button>
+
+    <div class="content">
+      <div class="full-chat-block">
+        <!-- Message Container -->
+        <div class="outer-container">
+          <div class="chat-container">
+            <!-- Messages -->
+            <div id="chatbox">
+              <h5 id="chat-timestamp"></h5>
+              <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+            </div>
+
+            <!-- User input box -->
+            <div class="chat-bar-input-block">
+              <div id="userInput">
+                <input id="textInput" class="input-box" type="text" name="msg"
+                  placeholder="Tap 'Enter' to send a message">
+                <p></p>
+              </div>
+
+              <div class="chat-bar-icons">
+                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart" onclick="heartButton()"></i>
+                <i id="chat-icon" style="color: #333;" class="fa-solid fa-paper-plane" onclick="sendButton()"></i>
+              </div>
+            </div>
+
+            <div id="chat-bar-bottom">
+              <p></p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="noise"></div>
+  <nav>
+    <div class="logo">
+      <img src="package/logo.png" alt="logo">
+    </div>
+    <div class="main-nav">
+      <div class="navbar glass">
+        <div class="nav-content">
+          <a href="#title">Home</a>
+          <a href="#kelebihan">Kelebihan</a>
+          <a href="#kelas">Kelas</a>
+        </div>
+      </div>
+    </div>
+    <div class="bars">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+  <div class="btn-absolute">
+    <div class="scroll-top">
+      <i class="fa-solid fa-angle-up"></i>
+    </div>
+    <div class="wa-fixed daftar">
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+  </div>
+  <div class="pop-up">
+    <div class="top-bar">
+      <div class="brand">
+        <i class="fa-brands fa-whatsapp"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WhatsApp
+      </div>
+      <i class="fa-solid fa-circle-xmark"></i>
+    </div>
+    <div class="main-content">
+      <div class="message">
+        <div class="disc">
+          <h2>10%</h2>
+          <div class="ajakan">
+            <h4>Daftar & Klaim diskon anda!</h4>
+            <p>Sebeleum Akhir bulan ini</p>
+          </div>
+        </div>
+        <hr>
+        <p class="chat">Hai, silahkan chat untuk mendaftar/mendapatkan info mengenai kursus Little Cloud</p>
+      </div>
+      <button style="position:static;" class="send">WhatsApp Kami&nbsp;&nbsp;&nbsp;&nbsp;<i
+          class="fa-solid fa-share"></i></button>
+    </div>
+  </div>
+  <div class="whole">
+    <section id="title">
+      <div class="title_container">
+        <h2 class="title">Belajar Bahasa Mandarin <span class="auto-type"></span></h2>
+      </div>
+      <div class="container glass">
+        <p class="pre-title">Mulai dari&nbsp;<span>Rp.400 K</span></p>
+        <p class="desc"> Ayo upgrade skill Bahasa Mandarin kamu dengan kami </p>
+        <button class="daftar">
+          Saya mau diskon 10%
+        </button>
+      </div>
+      <div class="flex_container glass">
+        <h2>Ayo <span>belajar</span> bersama di Little Cloud Mandarin Course !</h2>
+        <div class="contain">
+          <i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;&nbsp;Guru yang telah berpengalaman lebih dari 15 tahun
+        </div>
+        <div class="contain">
+          <i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;&nbsp;Membimbing siswa yang akan berangkat ke Universitas
+          di
+          Tiongkok
+        </div>
+        <div class="contain">
+          <i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;&nbsp;Membimbing siswa ujian HSK
+        </div>
+        <button class="daftar">Ayo daftar sekarang ---- WA</button>
+      </div>
+    </section>
+    <section id="kelebihan">
+      <div class="kelebihan-container glass">
+        <h2><span>Kelebihan </span> belajar bersama Little Cloud Mandarin Course </h2>
+        <div class="grid-container">
+          <div class="box">
+            <i class="fa-solid fa-person-chalkboard"></i>
+            Guru berpengalaman
+          </div>
+          <div class="box">
+            <i class='bx bxs-brain orange'></i>
+            Tes penempatan kelas yang sesuai kemampuan
+          </div>
+          <div class="box">
+            <i class="fa-regular fa-face-grin-squint green"></i>
+            Metode belajar yang menyenangkan dan menarik
+          </div>
+          <div class="box">
+            <i class='bx bxs-user-circle'></i>
+            Kelas hanya berkapasitas maximal 10 siswa
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-chart-line"></i>
+            Belajar lebih focus dan maksimal
+          </div>
+          <div class="box">
+            <i class='bx bxs-certification orange'></i>
+            E – Sertifikat
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-book"></i>
+            Buku / E- Book
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="kelas">
+      <div class="kelas-container glass">
+        <h2><span>Kelas </span> yang tersedia</h2>
+        <div class="contain">
+          <i class="fa-solid fa-circle-dot"></i>&nbsp;&nbsp;&nbsp;Kelas Anak A 4 – 6 thn
+        </div>
+        <div class="contain">
+          <i class="fa-solid fa-circle-dot"></i>&nbsp;&nbsp;&nbsp;Kelas anak B 7 – 13 tahun
+        </div>
+        <div class="contain">
+          <i class="fa-solid fa-circle-dot"></i>&nbsp;&nbsp;&nbsp;Kelas remaja 14 – 18 tahun
+        </div>
+        <div class="contain">
+          <i class="fa-solid fa-circle-dot"></i>&nbsp;&nbsp;&nbsp;Kelas Dewasa 18 tahun ke atas
+        </div>
+        <div class="contain">
+          <i class="fa-solid fa-circle-dot"></i>&nbsp;&nbsp;&nbsp;Kelas Coorporate
+        </div>
+        <div class="contain">
+          <i class="fa-solid fa-circle-dot"></i>&nbsp;&nbsp;&nbsp;Bimbingan Ujian HSK
+        </div>
+        <div class="contain">
+          <i class="fa-solid fa-circle-dot"></i>&nbsp;&nbsp;&nbsp;After School
+        </div>
+        <div class="contain">
+          <i class="fa-solid fa-circle-dot"></i>&nbsp;&nbsp;&nbsp;Kelas persiapan
+        </div>
+      </div>
+    </section>
+    <div class="cerita-container glass">
+      <div class="contain">
+        <div class="circle">
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+        </div>
+        <i class="fa-solid fa-quote-right"></i>
+        <p>Sukses menghadapi ujian HSK, mempersiapkan buah hati ke jenjang sekolah formal dengan mata pelajaran Bahasa
+          Mandarin, meningkatkan kemampuan staff dan karyawan dengan guru – guru professional dan berpengalaman di
+          bidang
+          Bahasa Mandarin lebih dari 10 Tahun.</p>
+      </div>
+      <button class="daftar">Daftar sekarang</button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./static/scripts/chat.js"></script>
+  <script src="./static/scripts/responses.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

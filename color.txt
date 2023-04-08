@@ -1,0 +1,3 @@
+  background: linear-gradient(135deg, #f403d1, #64b5f6);
+  background: linear-gradient(135deg, #ffec61, #f321d7);
+  background: linear-gradient(135deg, #24ff72, #2196f3);
