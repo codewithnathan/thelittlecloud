@@ -73,15 +73,15 @@ nav .navbar a {
 
 nav .logo {
   position: fixed;
-  left: 15px;
-  top: 15px;
+  left: 5px;
+  top: 5px;
   z-index: 99;
   text-shadow: 1px 1px #000;
 }
 
 nav .logo img {
-  width: 7rem;
-  height: 7rem;
+  width: 10rem;
+  height: 10rem;
 }
 
 

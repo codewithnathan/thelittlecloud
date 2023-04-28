@@ -60,7 +60,7 @@ bars.addEventListener("click", () => {
 // send WA
 sendWA.addEventListener("click", () => {
   var text = "Halo Little Cloud Mandarin Course, saya tertarik dengan kursus Little Cloud Mandarin"
-  window.open(`https://api.whatsapp.com/send/?phone=62818347779&text=${text}`, '_blank')
+  window.open(`https://api.whatsapp.com/send/?phone=6287842174971&text=${text}`, '_blank')
 })
 
 // change text

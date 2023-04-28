@@ -12,7 +12,7 @@ function getBotResponse(input) {
     `
   } else if (input == 'kontak kami') {
     return `Berikut kontak kami.<br>
-    whatsapp : <a href='https://api.whatsapp.com/send/?phone=62818347779&text=Halo%20Little%20Cloud%20Mandarin%20Course,%20saya%20tertarik%20dengan%20kursus%20Little%20Cloud%20Mandarin'>+62 818-347-779</a><br>
+    whatsapp : <a href='https://api.whatsapp.com/send/?phone=6287842174971&text=Halo%20Little%20Cloud%20Mandarin%20Course,%20saya%20tertarik%20dengan%20kursus%20Little%20Cloud%20Mandarin'>+62 878-4217-4971</a><br>
     <b>pilihan kelas | kelebihan kami</b>`
   } else if (input == 'kelebihan kami') {
     return `Berikut adalah kelebihan kami :<br>
